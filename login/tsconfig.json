@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "typeRoots": ["./node_modules/@types"],
+    "types": ["node"],
+    "skipLibCheck": true,
+    "rootDir": "./src",
+    "strict": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "outDir": "./lib",
+    "declaration": true
+  },
+  "exclude": ["node_modules"]
+}
